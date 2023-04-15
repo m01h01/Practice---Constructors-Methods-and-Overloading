@@ -27,10 +27,7 @@
             account.Withdraw(300);
             Console.WriteLine(account);
 
-            account.Withdraw(-1);
-            Console.WriteLine(account);
-
-            account.Withdraw(-500);
+            account.Withdraw(500);
             Console.WriteLine(account);
 
 

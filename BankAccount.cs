@@ -35,13 +35,12 @@ namespace Practice___Constructors__Methods__and_Overloading
         {
             if (amount > 0)
             {
-                _balance -= amount;
+                if (amount < _balance)
+                {
+                    _balance -= amount;
+                }
             }
-            else if (amount > _balance)
-            {
-                _balance = Balance;
-            }
-           
+          
         }
         public override string ToString()
         {
